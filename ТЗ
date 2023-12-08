@@ -1,0 +1,24 @@
+1. Public class main {
+public static void main (string[] arg){
+Scanner scanner = new Scanner(system.in);
+System.out.print("Введите число");
+int nuber = scanner.nextint();
+if (number>7){System.out.printin("Привет");}}}
+
+2. Public class main {
+public static void main (string[] arg){
+Scanner scanner = new Scanner(system.in);
+System.out.print("Введите имя");
+ String name = scanner.nextLine();
+if (name.equals = ("Вячеслав")) {System.out.printin("Привет Вячеслав")} else {System.out.println("Нет такого имени");}}}
+
+3. Public class main {
+public static void main (string[] arg){
+int [] array = {1,2,3, for 10};
+int count =0;
+for (int number : array){ if (number %3 ==0){ count++; }}
+System.out.println("count:"+count);}}
+
+4. Дано скобочная последовательность: [((())()(())]]
+Последовательность не правильная.
+Необходимо заменить предпоследнюю ']' на ')', итог будет : [((())()(()))]
